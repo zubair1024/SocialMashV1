@@ -1,0 +1,21 @@
+.group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.group:after { clear: both; }  
+.group { zoom: 1; }  
+
+body {
+    font: normal 100% "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+p {
+	font-size: .8em;
+}
+
+#sidebar {
+  width: 30%;
+  float: right;
+}
+
+#main {
+  width: 70%;
+  float: left;
+}
